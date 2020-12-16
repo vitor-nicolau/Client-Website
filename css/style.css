@@ -1,0 +1,367 @@
+/* Main Page */
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f8f2e4;
+}
+
+/* Navbar */
+
+.navbar {
+  background-color: #252d51 !important;
+}
+
+.navbar-brand {
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.nav-link {
+  color: #f9a971 !important;
+  font-size: 20px;
+}
+
+.nav-link:hover {
+  color: #ffdcc3 !important;
+}
+
+/* Carousel */
+
+.carousel-img {
+  position: relative;
+  bottom: 230px;
+  width: 100%;
+}
+
+.carousel-item {
+  height: 30rem;
+}
+
+@media (min-width: 768px) {
+  .carousel-caption {
+    padding-bottom: 4rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .carousel-caption {
+    padding-bottom: 6rem;
+  }
+}
+
+/* Jumbotron */
+
+.jumbotron {
+  background-color: #f8f2e4;
+}
+
+.jumbotron h1 {
+  text-align: center;
+}
+
+@media (max-width: 425px) {
+  .jumbotron {
+    padding: 20px;
+  }
+
+  .jumbotron h1 {
+    font-size: 3rem;
+    padding: 20px;
+  }
+
+  .jumbotron img {
+    padding-left: 20px;
+    width: 190px;
+  }
+}
+
+@media (min-width: 768px) {
+  .jumbotron {
+    padding: 50px;
+  }
+
+  .jumbotron h1 {
+    font-size: 3rem;
+    padding: 20px;
+  }
+
+  .jumbotron img {
+    padding-left: 20px;
+    width: 240px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .jumbotron {
+    padding: 60px;
+  }
+
+  .jumbotron h1 {
+    font-size: 3rem;
+    padding: 20px;
+  }
+
+  .jumbotron img {
+    padding-left: 20px;
+    width: 290px;
+  }
+}
+
+.jumbotron img {
+  text-align: right;
+}
+
+/* Horizontal Line Main Page */
+
+.main-page-hr {
+  width: 80%;
+}
+
+/* Dog Images */
+
+.dog-pictures {
+  padding: 50px;
+}
+
+.alpha {
+  width: 480px;
+}
+
+@media (max-width: 425px) {
+  .dog {
+    padding: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .dog {
+    padding: 20px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .dog {
+    padding: 20px;
+    width: 300px;
+  }
+}
+
+/* Footer */
+
+.footer {
+  width: 100%;
+  background-color: #444e7a;
+  color: #f9a971;
+  text-align: center;
+}
+
+.footer span {
+  margin-right: 60px;
+}
+
+.footer a {
+  color: inherit;
+}
+
+.footer i {
+  margin-left: 1.5rem;
+}
+
+/* Regime Cards */
+
+@media (max-width: 425px) {
+  .dog-regime {
+    padding: 30px;
+  }
+
+  .dog-regime .card-title {
+    font-size: 1.7rem;
+  }
+
+  .dog-regime .card-body {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .dog-regime {
+    padding: 20px;
+  }
+
+  .dog-regime .card-title {
+    font-size: 1.4rem;
+  }
+
+  .dog-regime .card-body {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .dog-regime {
+    padding: 15px;
+  }
+
+  .dog-regime .card-title {
+    font-size: 1.22rem;
+  }
+
+  .dog-regime .card-body {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .dog-regime {
+    padding: 15px;
+  }
+
+  .dog-regime .card-title {
+    font-size: 1.7rem;
+  }
+
+  .dog-regime .card-body {
+    font-size: 1.1rem;
+  }
+}
+
+.regime-card {
+  padding: 3% 2%;
+}
+
+.card img {
+  width: 100% !important;
+  height: auto !important;
+}
+
+/* Services */
+
+.services-hr {
+  width: 80%;
+}
+
+.services-header {
+  max-width: 700px;
+  padding: 5px 40px 0;
+  margin-top: 2rem;
+}
+
+.services-header .lead {
+  margin-bottom: 0;
+}
+
+.pricing {
+  padding: 50px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.card-title {
+  font-size: 3rem;
+}
+
+.card-body {
+  font-size: 20px;
+}
+
+.add-on-header {
+  padding-top: 50px;
+}
+
+.add-ons {
+  padding: 50px;
+}
+
+.add-on-column {
+  padding: 3% 2%;
+}
+
+@media (min-width: 1024px) {
+  .pricing-card {
+    height: 398px;
+  }
+
+  .add-on-card {
+    height: 360px;
+  }
+}
+
+@media (min-width: 768px) {
+  .add-on-card {
+    height: 360px;
+  }
+}
+
+/* Contact Info */
+
+@media (max-width: 425px) {
+  .feature-box {
+    padding: 20px;
+  }
+
+  .feature-box h3 {
+    font-size: 2rem;
+  }
+
+  .feature-box p {
+    font-size: 1.2rem;
+  }
+
+  .feature-box .icon {
+    padding: 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .feature-box {
+    padding: 30px;
+  }
+
+  .feature-box h3 {
+    font-size: 2rem;
+  }
+
+  .feature-box p {
+    font-size: 1.2rem;
+  }
+
+  .feature-box .icon {
+    padding: 15px;
+  }
+}
+
+.contact {
+  padding: 6% 5%;
+}
+
+.icon {
+  color: #f9a971;
+}
+
+.icon:hover {
+  color: #d18f60;
+}
+
+/* Viewport Sizing */
+
+@media (max-width: 425px) {
+  html {
+    font-size: 14px;
+  }
+
+  .card-title {
+    font-size: 2rem;
+  }
+
+  .card-body {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .card-body {
+    font-size: 1.32rem;
+  }
+}
